@@ -202,7 +202,7 @@ body * {
     text-transform: uppercase;
     margin: 0;
 }
-.subtitles, .work-descr, .work-descr div {
+.subtitles, .work-descr, .work-descr div, .req, .des, .com {
     display: flex;
 }
 .subtitle-color-1 {
@@ -276,6 +276,7 @@ body * {
     margin-top: 275px;
 }
 .input {
+    color: #FFFFFF;
     border: 0;
     outline: 0;
     background-color: transparent;
@@ -495,6 +496,7 @@ body * {
 .input-f2 {
     padding: 7px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
 }
 .input-f2::placeholder {
     font-size: 14px;
@@ -668,7 +670,6 @@ body * {
     line-height: 28px;
 }
 .form-3-container {
-    width: 100%;
     position: absolute;
     z-index: 1;
     margin-top: -222px;
@@ -678,6 +679,9 @@ body * {
     font-size: 13px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
+}
+.form-3 input {
+    color: #FFFFFF;
 }
 .address-info {
     padding-top: 274px;

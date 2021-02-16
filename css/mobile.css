@@ -2,24 +2,36 @@ body, .middle {
     background: #181818;
 }
 nav, .project-right, .request, .clients, .design, .image-overlay, .support, #bars, .vid-con,
-.form-1 button, .paragraph br, .header-bottom, #desktop-map {
+.form-1 button, .paragraph br, .header-bottom, #desktop-map  {
+    display: none;
+}
+.paragraph-container {
     display: none;
 }
 header, main, footer, .button-sbmt, .button-calc, .project, .project-left, 
 .p-text-s, .title-middle, .form-input, .after-middle, .repair, .card {
     width: 100%;
 }
+.restoration {
+    padding-bottom: 266px;
+}
 .header-top {
     height: 57px;
 }
-.num, #room, .vid-con-mob, #btn-mob, .mob-ver, .map-container  {
+.num, #room, .vid-con-mob, #btn-mob, .mob-ver, .map-container {
     display: block;
 }
-.mob-ver-img {
+.paragraph-container-mob {
     display: block;
+}
+.mob-ver {
+    width: 100%;
+    display: block;
+    margin: -250px auto 20px;
 }
 .mob-ver-img img {
-    margin: -120px auto 20px;
+    width: 90%;
+    margin: 24px auto 0;
 }
 .main, .project, .project-left, .form-3, .address-info, .form-input-1, .form-3-top-input  {
     padding: 0;
@@ -75,6 +87,9 @@ header, main, footer, .button-sbmt, .button-calc, .project, .project-left,
     margin: 0 auto 58px;
     grid-column-gap: 40px;
 }
+.subtitle-control {
+    padding: 0;
+}
 .subtitle-color-1 {
     font-size: 14px;
     line-height: 138.6%;
@@ -106,14 +121,19 @@ header, main, footer, .button-sbmt, .button-calc, .project, .project-left,
 .restoration {
     background-color: #FFFFFF;
 }
+.form-1 {
+    width: 100%;
+    margin: 0 auto;
+}
 #form-1-container {
     margin-top: 51px;
 }
 .form-1 label {
     color: rgba(255, 255, 255, 0.5);
+    width: 100%;
 }
 .form-input {
-    min-width: 320px;
+    margin: 0 auto 20px;
     width: max-content;
 }
 .form-1 input::placeholder {
@@ -123,14 +143,14 @@ header, main, footer, .button-sbmt, .button-calc, .project, .project-left,
 .checkbox-text, .form-1 input::placeholder, .paragraph {
     color: #FFFFFF;
 }
-.form-input:first-of-type {
-    margin: 0 auto 20px;
-}
-.form-input:last-of-type {
-    margin: 0 auto;
+.form-input:first-of-type, .form-input:last-of-type {
+    width: 90%;
 }
 .after-middle {
     margin: 0 auto 5px;
+}
+.input {
+    color: #FFFFFF;
 }
 .input-f1 {
     border-bottom: 1px solid #FFFFFF;
@@ -158,9 +178,6 @@ header, main, footer, .button-sbmt, .button-calc, .project, .project-left,
 .repair img {
     width: 100%;
 }
-.restoration {
-    height: 2200px;
-}
 .mob-ver {
     text-align: center;
 }
@@ -173,7 +190,6 @@ header, main, footer, .button-sbmt, .button-calc, .project, .project-left,
     margin: 0;
     margin-top: 40px;
     position: static;
-    width: 100%;
 }
 .address {
     background: none;
