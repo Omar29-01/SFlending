@@ -30,7 +30,7 @@ body * {
 .mainmain {
     width: 100%;
 }
-.header-content {
+.header-content, .cost-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -368,7 +368,7 @@ body * {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
-.rub-btn {
+.cost-info {
     position: absolute;
     bottom: -27px;
     left: 0;
