@@ -102,9 +102,6 @@ body * {
 .white {
     color: #FFFFFF;
 }
-/* .white:hover {
-    color: #E3B873;
-}  */
 .navigation {
     display: flex;
     list-style: none;
@@ -225,6 +222,10 @@ body * {
     line-height: 19px;
     color: #E3B873;
 }  
+.subtitle-control {
+    padding-top: 92px;
+    text-align: center;
+}
 #project-image {
     margin-top: 52px;
 }
@@ -234,7 +235,7 @@ body * {
     left: 0px;
 }
 #control-icon {
-    margin-top: 92px;
+    margin-top: -20px;
 }
 #video-con {
     margin-top: 31px;
