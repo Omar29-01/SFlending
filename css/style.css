@@ -202,7 +202,7 @@ body * {
     text-transform: uppercase;
     margin: 0;
 }
-.subtitles {
+.subtitles, .work-descr, .work-descr div {
     display: flex;
 }
 .subtitle-color-1 {
@@ -346,6 +346,12 @@ body * {
     text-align: center;
     font-size: 20px;
     line-height: 28px;
+}
+.subtitle-info {
+    font-size: 17px;
+    line-height: 24px;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 .repair {
     display: flex;
@@ -634,9 +640,16 @@ body * {
     padding-left: 20px;
 }
 .work-descr {
+    width: 293px;
+    height: 54px;
+    background-color: #E3B873;
     position: absolute;
     top: 385px;
     left: 0;
+}
+.work-descr div {
+    padding: 11px 15px;
+    align-content: center;
 }
 .address {
     background: url("../images/footer-background.png");
