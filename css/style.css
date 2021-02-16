@@ -81,6 +81,13 @@ body * {
     font-size: 11px;
     line-height: 15px;
 }
+.button-call:hover, .button-calc:hover  {
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid #FFFFFF;
+}
+.btn-sbmt:hover {
+    background-color:rgba(0, 0, 0, 0.7);
+}
 .text-center-uppercase {
     text-align: center;
     text-transform: uppercase;
@@ -89,15 +96,15 @@ body * {
     font-size: 11px;
     line-height: 15px;
 }
-.high {
+.high, .navigation-item a:hover {
     color: #E3B873;
 }
 .white {
     color: #FFFFFF;
 }
-.white:hover {
+/* .white:hover {
     color: #E3B873;
-} 
+}  */
 .navigation {
     display: flex;
     list-style: none;
