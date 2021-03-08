@@ -59,33 +59,34 @@
                     <div class="descr-container">
                         <div>
                             <h3 class="text-font-yo subtitle subtitle-color-1">CITY:</h3>
-                            <p class="text-font-ns text white">Rostov-on-Don <br/> LCD admiral</p>
+                            <p class="text-font-ns text white" id="js-city">Rostov-on-Don <br/> LCD admiral</p>
                         </div>
                         <div>
                             <h3 class="text-font-yo subtitle subtitle-color-1">APARTMENT AREA:</h3>
-                            <p class="text-font-ns text white">81 m2</p>
+                            <p class="text-font-ns text white" id="js-area">81 m2</p>
                         </div>
                         <div>
                             <h3 class="text-font-yo subtitle subtitle-color-1">REPAIR TIME:</h3>
-                            <p class="text-font-ns text white">3.5 months</p>
+                            <p class="text-font-ns text white" id="js-time">3.5 months</p>
                         </div>
                         <div>
                             <h3 class="text-font-yo subtitle subtitle-color-1">REPAIR COST:</h3>
                             <p class="text-font-ns text white">Upon request</p>
                         </div>
                     </div>
-                    <img id="bars" src="./icons/group_8.4.svg" alt="arrows-and-dots" style="margin-top: 29px;">
+                    <div class="bars">
+                        <img src="./icons/left-arr.svg" alt="left" id="js-prev">
+                        <img src="./icons/left-c.svg" alt="c" id="js-circle">
+                        <img src="./icons/rigth-arr.svg" alt="right" id="js-next"> 
+                    </div>
                 </div>
                 <div class="project-right">
                     <div class="subtitles">
-                        <div class="pos-lev">
-                            <a href="#" class="text-font-yo subtitle subtitle-color-2 subtitle-color-2-1">ROSTOV-ON-DON, ADMIRAL</a>
-                            <img src="./icons/rect_6.svg" alt="line" id="rect6">
-                        </div>
-                        <a href="#" class="text-font-yo subtitle subtitle-color-2">SOCHI THEMES</a>
-                        <a href="#" class="text-font-yo subtitle subtitle-color-2">ROSTOV-ON-DON PATRIOTIC</a>
+                        <a href="#" id="js-title-1" class="text-font-yo subtitle subtitle-color-2 subtitle-color-2-1">ROSTOV-ON-DON, ADMIRAL</a>
+                        <a href="#" id="js-title-2" class="text-font-yo subtitle subtitle-color-2">SOCHI THEMES</a>
+                        <a href="#" id="js-title-3" class="text-font-yo subtitle subtitle-color-2">ROSTOV-ON-DON PATRIOTIC</a>
                     </div>
-                    <img id="project-image" src="./images/project-image.png" alt="project-image" width="679px">
+                    <img class="js-img" id="project-image" src="./images/project-image.png" alt="project-image" width="679px">
                 </div>
             </div>
             <h3 class="text-font-yo subtitle subtitle-control white">ONLINE CONTROL</h3>
@@ -456,5 +457,6 @@
             </div> 
         </section>
     </footer>
+    <script src="./scrpits/index.js"></script>
 </body>
 </html>

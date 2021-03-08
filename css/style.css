@@ -198,6 +198,20 @@ body * {
     margin-top: 40px;
     width: fit-content;
 }
+.bars {
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+    margin-top: 45px;
+}
+.bars-circle {
+    display: flex;
+    justify-content: space-between;
+    width: 63px;
+}
+#js-prev, #js-next, .js-circle {
+    cursor: pointer;
+}
 .subtitle {
     text-transform: uppercase;
     margin: 0;
@@ -214,14 +228,13 @@ body * {
     font-size: 14px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.3);
-    padding-right: 40px;
+    margin-right: 40px;
     text-decoration: none;
+    padding-bottom: 7px; 
+    border-bottom-style: solid;
+    border-bottom-width: 0px; 
+    width: fit-content;
 }   
-.subtitle-color-2-1 {
-    font-size: 14px;
-    line-height: 19px;
-    color: #E3B873;
-}  
 .subtitle-control {
     padding-top: 92px;
     text-align: center;
